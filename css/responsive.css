@@ -1,0 +1,82 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        height: 50vh;
+        background-repeat: no-repeat;
+    }
+    .text h2 {
+        font-size: 42px;
+    }
+    .text p {
+        padding-right: 0;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    body {
+        height: 70vh;
+        background-repeat: no-repeat;
+    }
+    .text {
+        margin-top: 45px;
+    }
+    .text p {
+        padding-right: 0;
+    }
+    .btn-main.btn-white {
+        margin-bottom: 15px;
+    }
+    .landing {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .text h2 {
+        font-size: 31px;
+    }
+    .landing-img {
+        margin-top: -38px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+body {
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+.text {
+    margin-top: 45px;
+}
+.text p {
+    padding-right: 0;
+}
+.btn-main.btn-white {
+    margin-bottom: 15px;
+}
+.landing {
+    grid-template-columns: repeat(1,1fr);
+}
+.text h2 {
+    font-size: 31px;
+}
+.landing-img {
+    margin-top: -38px;
+}
+}
